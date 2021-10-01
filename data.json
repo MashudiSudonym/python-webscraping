@@ -1,0 +1,446 @@
+[
+  {
+    "business_name": "Keyhole Pizza",
+    "business_categories": [
+      "Restaurants",
+      "Pizza"
+    ],
+    "business_url": "https://www.yellowpages.com/fort-loramie-oh/mip/keyhole-pizza-13031477?lid=1001797805632",
+    "business_phone": "(937) 419-1290",
+    "business_address": "6621 State Route 66Fort Loramie, OH 45845",
+    "business_rating": "zero",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 1:00 am",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 1:00 am"
+  },
+  {
+    "business_name": "Buxton Inn The",
+    "business_categories": [
+      "Restaurants",
+      "Banquet Halls & Reception Facilities",
+      "Concert Halls"
+    ],
+    "business_url": "https://www.yellowpages.com/granville-oh/mip/buxton-inn-the-13137899?lid=1001345076627",
+    "business_phone": "(740) 587-0001",
+    "business_address": "313 W BroadwayGranville, OH 43023",
+    "business_rating": "one",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:30 am - 9:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:30 am - 9:00 pm"
+  },
+  {
+    "business_name": "Oakwood Club",
+    "business_categories": [
+      "Restaurants",
+      "Bars",
+      "Fine Dining Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/oakwood-oh/mip/oakwood-club-21839851?lid=1001646159252",
+    "business_phone": "(937) 802-9665",
+    "business_address": "2414 Far Hills AveOakwood, OH 45419",
+    "business_rating": null,
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 4:00 pm - 11:30 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 4:00 pm - 12:30 pm"
+  },
+  {
+    "business_name": "Loma Linda Restaurant",
+    "business_categories": [
+      "Restaurants",
+      "Fast Food Restaurants",
+      "Health Food Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/swanton-oh/mip/loma-linda-restaurant-2361036?lid=1001734774972",
+    "business_phone": "(567) 297-1962",
+    "business_address": "10430 Airport HwySwanton, OH 43558",
+    "business_rating": "three",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 11:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 12:00 am"
+  },
+  {
+    "business_name": "Little Caesars",
+    "business_categories": [
+      "Restaurants",
+      "Pizza",
+      "Take Out Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/marietta-oh/mip/little-caesars-3768450?lid=1000108689500",
+    "business_phone": "(740) 374-8151",
+    "business_address": "446 Pike StMarietta, OH 45750",
+    "business_rating": "two",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 11:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 12:00 am"
+  },
+  {
+    "business_name": "King's NY Pizzeria",
+    "business_categories": [
+      "Restaurants",
+      "Pizza"
+    ],
+    "business_url": "https://www.yellowpages.com/dayton-oh/mip/kings-ny-pizzeria-452264353?lid=1001902199473",
+    "business_phone": "(937) 259-8390",
+    "business_address": "57 W Franklin StDayton, OH 45459",
+    "business_rating": "five",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 9:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 9:00 pm"
+  },
+  {
+    "business_name": "TJ's Restaurant & Lounge",
+    "business_categories": [
+      "Restaurants",
+      "American Restaurants",
+      "Bar & Grills"
+    ],
+    "business_url": "https://www.yellowpages.com/youngstown-oh/mip/tjs-restaurant-lounge-455468065?lid=1000406758337",
+    "business_phone": "(330) 538-8520",
+    "business_address": "7410 South AveYoungstown, OH 44512",
+    "business_rating": "zero",
+    "business_status": "OPEN NOW",
+    "business_open_schedule_today": "Today: 6:30 am - 10:00 pm",
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Giovanni's Pizza",
+    "business_categories": [
+      "Restaurants",
+      "Pasta",
+      "Pizza"
+    ],
+    "business_url": "https://www.yellowpages.com/deering-oh/mip/giovannis-pizza-531738235?lid=1001616294932",
+    "business_phone": "(740) 532-9061",
+    "business_address": "STATE Rte 243 NDeering, OH 45638",
+    "business_rating": "zero",
+    "business_status": null,
+    "business_open_schedule_today": null,
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Buxton Inn The",
+    "business_categories": [
+      "Restaurants",
+      "American Restaurants",
+      "Banquet Halls & Reception Facilities"
+    ],
+    "business_url": "https://www.yellowpages.com/granville-oh/mip/buxton-inn-the-532986937?lid=1001655765517",
+    "business_phone": "(740) 587-0001",
+    "business_address": "313 W BroadwayGranville, OH 43023",
+    "business_rating": "zero",
+    "business_status": null,
+    "business_open_schedule_today": null,
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "K&C Restaurants LLC",
+    "business_categories": [
+      "Restaurants",
+      "Pizza"
+    ],
+    "business_url": "https://www.yellowpages.com/logan-oh/mip/k-c-restaurants-llc-549916680?lid=1002070098017",
+    "business_phone": "(740) 385-8558",
+    "business_address": "58 N Mulberry StLogan, OH 43138",
+    "business_rating": "zero",
+    "business_status": null,
+    "business_open_schedule_today": null,
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Kame House Hibachi Grill",
+    "business_categories": [
+      "Restaurants",
+      "Food Trucks"
+    ],
+    "business_url": "https://www.yellowpages.com/columbus-oh/mip/kame-house-hibachi-grill-556119264?lid=1002073225521",
+    "business_phone": "(614) 943-0590",
+    "business_address": "6091 Cleveland AveColumbus, OH 43231",
+    "business_rating": "zero",
+    "business_status": null,
+    "business_open_schedule_today": null,
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Ding Ho Restaurant",
+    "business_categories": [
+      "Restaurants",
+      "Asian Restaurants",
+      "Caterers"
+    ],
+    "business_url": "https://www.yellowpages.com/columbus-oh/mip/ding-ho-restaurant-9119486?lid=1002056319024",
+    "business_phone": "(380) 867-1698",
+    "business_address": "120 Phillipi RdColumbus, OH 43228",
+    "business_rating": "four",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 9:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 9:30 pm"
+  },
+  {
+    "business_name": "J Pistone Market & Gathering Place",
+    "business_categories": [
+      "Restaurants",
+      "Caterers",
+      "Delicatessens"
+    ],
+    "business_url": "https://www.yellowpages.com/shaker-heights-oh/mip/j-pistone-market-gathering-place-10584764?lid=1000919616965",
+    "business_phone": "(216) 800-8098",
+    "business_address": "3245 Warrensville Center RdShaker Heights, OH 44122",
+    "business_rating": "five",
+    "business_status": "OPEN NOW",
+    "business_open_schedule_today": "Today: 6:30 am - 7:00 pm",
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Y-Inn",
+    "business_categories": [
+      "Restaurants",
+      "Bed & Breakfast & Inns",
+      "Family Style Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/rogers-oh/mip/y-inn-11398762?lid=1000822056350",
+    "business_phone": "(330) 227-3320",
+    "business_address": "7912 State Route 7Rogers, OH 44455",
+    "business_rating": "zero",
+    "business_status": "OPEN NOW",
+    "business_open_schedule_today": "Today: 8:00 am - 12:00 am",
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Ron's Pizza",
+    "business_categories": [
+      "Restaurants",
+      "Pizza"
+    ],
+    "business_url": "https://www.yellowpages.com/mount-vernon-oh/mip/rons-pizza-1272989?lid=1001772791054",
+    "business_phone": "(740) 462-5525",
+    "business_address": "506 Coshocton AveMount Vernon, OH 43050",
+    "business_rating": "five",
+    "business_status": "OPEN NOW",
+    "business_open_schedule_today": "Today: 5:00 am - 10:30 pm",
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Toft Dairy",
+    "business_categories": [
+      "Restaurants",
+      "Dairies",
+      "Dairy Products"
+    ],
+    "business_url": "https://www.yellowpages.com/sandusky-oh/mip/toft-dairy-1319529?lid=1000116570039",
+    "business_phone": "(419) 625-4376",
+    "business_address": "3717 Venice RdSandusky, OH 44870",
+    "business_rating": "five",
+    "business_status": "OPEN NOW",
+    "business_open_schedule_today": "Today: 8:00 am - 9:00 pm",
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Paparonis",
+    "business_categories": [
+      "Restaurants",
+      "Caterers",
+      "Dessert Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/barberton-oh/mip/paparonis-1427406?lid=1001981053521",
+    "business_phone": "(234) 208-5468",
+    "business_address": "68 W State StBarberton, OH 44203",
+    "business_rating": "five",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 10:30 am - 11:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 10:30 am - 12:00 am"
+  },
+  {
+    "business_name": "Smith's Deli & Restaurant",
+    "business_categories": [
+      "Restaurants",
+      "Caterers",
+      "Delicatessens"
+    ],
+    "business_url": "https://www.yellowpages.com/columbus-oh/mip/smiths-deli-restaurant-1602214?lid=1002004651280",
+    "business_phone": "(614) 826-6942",
+    "business_address": "3737 N High StColumbus, OH 43214",
+    "business_rating": "four",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 9:00 am - 9:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 9:00 am - 9:00 pm"
+  },
+  {
+    "business_name": "Peppe & Luigi's Pizza",
+    "business_categories": [
+      "Restaurants",
+      "Family Style Restaurants",
+      "Pizza"
+    ],
+    "business_url": "https://www.yellowpages.com/barberton-oh/mip/peppe-luigis-pizza-16881224?lid=1000238789738",
+    "business_phone": "(330) 745-1121",
+    "business_address": "240 5th St SE Ste 2Barberton, OH 44203",
+    "business_rating": "one",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 10:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 11:00 pm"
+  },
+  {
+    "business_name": "Mahoning Country Club",
+    "business_categories": [
+      "Restaurants",
+      "Banquet Halls & Reception Facilities",
+      "Caterers"
+    ],
+    "business_url": "https://www.yellowpages.com/girard-oh/mip/mahoning-country-club-21798853?lid=1001780217060",
+    "business_phone": "(800) 696-7031",
+    "business_address": "710 E Liberty StGirard, OH 44420",
+    "business_rating": "zero",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 9:00 am - 5:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 9:00 am - 5:00 pm"
+  },
+  {
+    "business_name": "Margherita's Grille",
+    "business_categories": [
+      "Restaurants",
+      "Food Products-Wholesale"
+    ],
+    "business_url": "https://www.yellowpages.com/girard-oh/mip/margheritas-grille-21798979?lid=207915963",
+    "business_phone": "(330) 545-2424",
+    "business_address": "728 N State StGirard, OH 44420",
+    "business_rating": "three",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 9:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 10:00 pm"
+  },
+  {
+    "business_name": "Casa Del Taco",
+    "business_categories": [
+      "Restaurants",
+      "Fast Food Restaurants",
+      "Mexican Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/chillicothe-oh/mip/casa-del-taco-21822006?lid=1001410109017",
+    "business_phone": "(740) 773-7650",
+    "business_address": "1055 N Bridge StChillicothe, OH 45601",
+    "business_rating": "zero",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 10:00 am - 11:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 10:00 am - 11:00 pm"
+  },
+  {
+    "business_name": "Bella's Italian Grille",
+    "business_categories": [
+      "Restaurants",
+      "Bar & Grills",
+      "Bars"
+    ],
+    "business_url": "https://www.yellowpages.com/celina-oh/mip/bellas-italian-grille-2343885?lid=1002069216472",
+    "business_phone": "(567) 510-0725",
+    "business_address": "1081 W Bank RdCelina, OH 45822",
+    "business_rating": "zero",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 9:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 10:00 pm"
+  },
+  {
+    "business_name": "House of Japan",
+    "business_categories": [
+      "Restaurants",
+      "Asian Restaurants",
+      "Fine Dining Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/columbus-oh/mip/house-of-japan-3347353?lid=1001609658482",
+    "business_phone": "(614) 681-3242",
+    "business_address": "8701 Sancus BlvdColumbus, OH 43240",
+    "business_rating": "three",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:30 am - 2:00 pm, 5:00 pm - 9:30 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:30 am - 2:00 pm, 5:00 pm - 10:00 pm"
+  },
+  {
+    "business_name": "Cornersburg Italian Specialties",
+    "business_categories": [
+      "Restaurants",
+      "Bakeries",
+      "Caterers"
+    ],
+    "business_url": "https://www.yellowpages.com/youngstown-oh/mip/cornersburg-italian-specialties-3991795?lid=1000116808552",
+    "business_phone": "(330) 799-8650",
+    "business_address": "3381 Canfield RdYoungstown, OH 44511",
+    "business_rating": "five",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 9:30 am - 5:30 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 9:30 am - 5:30 pm"
+  },
+  {
+    "business_name": "Fort Findlay Coffee & Doughnutss Shoppe",
+    "business_categories": [
+      "Restaurants",
+      "Bakeries",
+      "Coffee & Espresso Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/findlay-oh/mip/fort-findlay-coffee-doughnutss-shoppe-453113664?lid=1000570476834",
+    "business_phone": "(419) 425-5550",
+    "business_address": "1016 Tiffin AveFindlay, OH 45840",
+    "business_rating": "zero",
+    "business_status": "OPEN NOW",
+    "business_open_schedule_today": "Today: 5:00 am - 5:00 pm",
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Lee's Famous Recipe Chicken",
+    "business_categories": [
+      "Restaurants",
+      "Caterers",
+      "Chicken Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/cincinnati-oh/mip/lees-famous-recipe-chicken-4566947?lid=1001344211819",
+    "business_phone": "(513) 272-4100",
+    "business_address": "3638 Round Bottom RdCincinnati, OH 45244",
+    "business_rating": "zero",
+    "business_status": null,
+    "business_open_schedule_today": null,
+    "business_open_schedule_tomorrow": null
+  },
+  {
+    "business_name": "Defelice Brothers Pizza",
+    "business_categories": [
+      "Restaurants",
+      "Caterers",
+      "Pizza"
+    ],
+    "business_url": "https://www.yellowpages.com/shadyside-oh/mip/defelice-brothers-pizza-460440103?lid=320503840",
+    "business_phone": "(740) 676-8282",
+    "business_address": "3788 Central AveShadyside, OH 43947",
+    "business_rating": null,
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 11:00 am - 10:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 11:00 am - 11:00 pm"
+  },
+  {
+    "business_name": "Grillin Daves-Style",
+    "business_categories": [
+      "Restaurants",
+      "Caterers",
+      "Dessert Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/zanesville-oh/mip/grillin-daves-style-4607943?lid=1002073513660",
+    "business_phone": "(740) 452-3808",
+    "business_address": "1612 Linden AveZanesville, OH 43701",
+    "business_rating": "four",
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 10:00 am - 10:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 10:00 am - 10:00 pm"
+  },
+  {
+    "business_name": "Lee's Famous Recipe Chicken",
+    "business_categories": [
+      "Restaurants",
+      "Caterers",
+      "Chicken Restaurants"
+    ],
+    "business_url": "https://www.yellowpages.com/middletown-oh/mip/lees-famous-recipe-chicken-461701291?lid=213802919",
+    "business_phone": "(513) 318-1015",
+    "business_address": "2011 N Verity PkwyMiddletown, OH 45042",
+    "business_rating": null,
+    "business_status": "CLOSED NOW",
+    "business_open_schedule_today": "Today: 10:30 am - 9:00 pm",
+    "business_open_schedule_tomorrow": "Tomorrow: 10:30 am - 9:00 pm"
+  }
+]
