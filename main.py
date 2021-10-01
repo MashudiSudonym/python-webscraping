@@ -74,7 +74,6 @@ for content in contents:
         business_open_schedule_today = None
         business_open_schedule_tomorrow = None
 
-    # format data to json format
     for category in categories:
         list_business_categories.append(category.text.strip())
 
