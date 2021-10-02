@@ -44,20 +44,43 @@ for content in contents:
     new_soup = BeautifulSoup(new_response.content, 'lxml')
     container = new_soup.find('main', {'class': 'container claimed'})
     main_info = container.find('article', {'class': 'business-card clearfix paid-listing'})
+    main_article = container.find('article', {'id': 'main-article'})
+    second_info = container.find('section', {'id': 'business-info'})
     categories = main_info.find('p', {'class': 'cats'}).find_all('a')
     section_rating = main_info.find('section', {'class': 'ratings'})
     time_info = main_info.find('div', {'class': 'time-info'})
+    gallery = main_article.find('section', {'id': 'gallery'})
+    photo_container = None if gallery.find('div', {'class': 'collage-item full'}) is None else gallery.find('div', {
+        'class': 'collage-item full'})
+    photos = None if photo_container is None else photo_container.find_all('img')
     business_name = container.find('h1').text.strip()
     business_phone = main_info.find('p', {'class': 'phone'}).text.strip()
     business_address = main_info.find('h2', {'class': 'address'}).text.strip()
+    business_rating = None if section_rating is None else section_rating.select_one('div')['class'][1]
+    business_slogan = None if second_info.find('h2', {'class': 'slogan'}) is None else second_info.find('h2', {
+        'class': 'slogan'}).text.strip()
+    business_website = second_info.find('a')['href']
+    business_general_info = None if second_info.find('dd', {'class': 'general-info'}) is None else second_info.find(
+        'dd', {'class': 'general-info'}).text.strip()
+
+    # empty variable
+    list_business_photo_product = []
     list_business_categories = []
 
-    # validation tag is not None
-    if section_rating is not None:
-        business_rating = section_rating.select_one('div')['class'][1]
-    else:
-        business_rating = None
+    # logic process for save result to empty variable
+    # save categories
+    for category in categories:
+        list_business_categories.append(category.text.strip())
 
+    # validation tag is not None
+    # save photo url
+    if photos is not None:
+        for photo in photos:
+            list_business_photo_product.append(photo['src'])
+    else:
+        list_business_photo_product.append(None)
+
+    # save business schedule and status
     # validation tag is not None
     if time_info is not None:
         # validation out of range
@@ -74,9 +97,6 @@ for content in contents:
         business_open_schedule_today = None
         business_open_schedule_tomorrow = None
 
-    for category in categories:
-        list_business_categories.append(category.text.strip())
-
     # check with print
     print(business_name)
     print(list_business_categories)
@@ -87,6 +107,10 @@ for content in contents:
     print(business_status)
     print(business_open_schedule_today)
     print(business_open_schedule_tomorrow)
+    print(list_business_photo_product)
+    print(business_slogan)
+    print(business_website)
+    print(business_general_info)
 
     # format data to json format
     json_data = {
@@ -99,6 +123,10 @@ for content in contents:
         'business_status': business_status,
         'business_open_schedule_today': business_open_schedule_today,
         'business_open_schedule_tomorrow': business_open_schedule_tomorrow,
+        'business_photo_product': list_business_photo_product,
+        'business_slogan': business_slogan,
+        'business_website': business_website,
+        'business_general_info': business_general_info,
     }
 
     data.append(json_data)
