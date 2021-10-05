@@ -28,6 +28,7 @@ requests_header = {
 query_param = f'search_terms={search_keyword}&geo_location_terms={location_keyword}'
 page = 1
 
+# do the loop if there is still another page
 while True:
     response = requests.get(url=f'{url}{additional_search_url}{query_param}', headers=requests_header)
     soup = BeautifulSoup(response.content, 'lxml')
@@ -125,12 +126,13 @@ while True:
 
         print(f'downloaded {idx + 1} of {len(contents)} from page {page} at {datetime.now()}')
 
-    # get pagination
+    # get next page tag
     pagination_container = soup.find('div', {'class': 'pagination'})
     pagination_next_page = pagination_container.find('a', {'class': 'next ajax-page'})['href']
     if pagination_next_page:
         query_param = pagination_next_page.replace(f'{additional_search_url}', '')
+
+        # just for information of page position
         page += 1
-        print(query_param)
     else:
         break
