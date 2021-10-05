@@ -26,6 +26,7 @@ requests_header = {
                   'Safari/537.36 '
 }
 query_param = f'search_terms={search_keyword}&geo_location_terms={location_keyword}'
+page = 1
 
 while True:
     response = requests.get(url=f'{url}{additional_search_url}{query_param}', headers=requests_header)
@@ -54,8 +55,10 @@ while True:
             'class': 'collage-item full'})
         photos = None if photo_container is None else photo_container.find_all('img')
         business_name = container.find('h1').text.strip()
-        business_phone = main_contact.find('p', {'class': 'phone'}).text.strip()
-        business_address = main_contact.find('h2', {'class': 'address'}).text.strip()
+        business_phone = None if main_contact.find('p', {'class': 'phone'}) is None else main_contact.find('p', {
+            'class': 'phone'}).text.strip()
+        business_address = None if main_contact.find('h2', {'class': 'address'}) is None else main_contact.find('h2', {
+            'class': 'address'}).text.strip()
         business_rating = None if section_rating is None else section_rating.select_one('div')['class'][1]
         business_slogan = None if main_info.find('h2', {'class': 'slogan'}) is None else main_info.find('h2', {
             'class': 'slogan'}).text.strip()
@@ -114,19 +117,20 @@ while True:
             'business_general_info': business_general_info,
         }
 
+        # create json file
+        data.clear()
         data.append(json_data)
+        with open(f'result/{idx+1}_of_{len(contents)}_data_from_page_{page}.json', 'w') as file:
+            json.dump(data, file)
 
-        print(f'downloaded {idx + 1} of {len(contents)} at {datetime.now()}')
-
-    # create json file
-    with open('data.json', 'w') as file:
-        json.dump(data, file)
+        print(f'downloaded {idx + 1} of {len(contents)} from page {page} at {datetime.now()}')
 
     # get pagination
     pagination_container = soup.find('div', {'class': 'pagination'})
     pagination_next_page = pagination_container.find('a', {'class': 'next ajax-page'})['href']
     if pagination_next_page:
         query_param = pagination_next_page.replace(f'{additional_search_url}', '')
+        page += 1
         print(query_param)
     else:
         break
