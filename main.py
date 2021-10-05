@@ -134,5 +134,3 @@ while True:
         print(query_param)
     else:
         break
-
-print('---------------->')
